@@ -22,6 +22,10 @@ cd vagrant-kubeadm-kubernetes
 vagrant up
 ```
 
+## Issues:
+* Issues: https://stackoverflow.com/questions/49112336/container-runtime-network-not-ready-cni-config-uninitialized
+* kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
+
 ## Set Kubeconfig file varaible.
 
 ```shell
